@@ -14,7 +14,6 @@ mock_dt2 = {
 }
 
 
-
 def test_basic_priority_queueing():
     """Aqui irá sua implementação"""
     prt_queue = PriorityQueue()
