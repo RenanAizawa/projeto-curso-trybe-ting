@@ -25,7 +25,8 @@ def remove(instance: Queue):
         return print('Não há elementos', file=sys.stdout)
     else:
         path_file = instance.dequeue()['nome_do_arquivo']
-        return print(f" Arquivo {path_file} removido com sucesso", file=sys.stdout)
+        return print(
+            f" Arquivo {path_file} removido com sucesso", file=sys.stdout)
 
 
 def file_metadata(instance: Queue, position):
