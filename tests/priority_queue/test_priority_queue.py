@@ -4,8 +4,8 @@ from ting_file_management.priority_queue import PriorityQueue
 
 mock_dt1 = {
   "nome_do_arquivo": "bela_adormecida.txt",
-    "qtd_linhas": 3,
-    "linhas_do_arquivo": [...]
+  "qtd_linhas": 3,
+  "linhas_do_arquivo": [...]
 }
 mock_dt2 = {
     "nome_do_arquivo": "branca_de_neve.txt",
