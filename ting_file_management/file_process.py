@@ -12,12 +12,12 @@ def process(path_file, instance: Queue):
         "qtd_linhas": len(file_read),
         "linhas_do_arquivo": file_read
     }
-
-    for num in range(len(instance) - 1):
-        if instance.search(num)['nome_do_arquivo'] == path_file:
+    for file in instance._data:
+        if file['nome_do_arquivo'] == path_file:
             return None
-
+    print(add_obj, file=sys.stdout)
     instance.enqueue(add_obj)
+
 
 def remove(instance: Queue):
     """Aqui irá sua implementação"""
